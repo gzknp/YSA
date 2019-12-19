@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 #Dosyadan veriyi okuma ve giriş-çıkış sütunlarını ayarlama
-dataset = pd.read_csv('C:/Users/kaan/Desktop/Yeni klasör/heart.csv')
+#dataset = pd.read_csv('')
 Giris= dataset.iloc[:,0:13]
 Cikis= dataset.iloc[:,13]
 from sklearn.preprocessing import StandardScaler
